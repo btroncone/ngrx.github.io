@@ -3,6 +3,7 @@
 * [Read Me](README.md)
 * [Introduction](README.md)
    * Basic Example
+   * Overview
 * Patterns and Best Practice
 * [Recipes](npm_setup.md)
 * [API Reference](jspm_setup.md)
