@@ -4,5 +4,5 @@
 * [Introduction](README.md)
 * Recipes
 * API Reference
-* Help
+* [Help](help.md)
 
