@@ -1,11 +1,11 @@
 # Summary
 
 * [Read Me](README.md)
+* Patterns and Best Practice
 * [Introduction](README.md)
    * Basic Example
    * Overview
 * Patterns and Best Practice
-* [Recipes](npm_setup.md)
 * [API Reference](jspm_setup.md)
 * [Help](help.md)
    * Frequently Asked Questions
