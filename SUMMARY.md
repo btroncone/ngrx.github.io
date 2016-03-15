@@ -1,13 +1,35 @@
 # Summary
 
 * [Read Me](README.md)
-* [Introduction](overview.md)
-   * Basic Example
-   * Overview
-* [API Reference](jspm_setup.md)
-* Patterns and Best Practice
-* [Help](help.md)
-   * Frequently Asked Questions
-   * Setup with NPM
-   * Setup with JSPM
+* [Introduction](README.md)
+   * [Overview](/introduction/overview.md)
+   * [Architecture](/introduction/architecture.md)
+   * [Middleware](/introduction/middleware.md)
+   * [Setup](/introduction/setup.md)
+   * [Basic Example](/introduction/basic_example.md)
+* [API Reference](/api/README.md)
+   * [Store](/api/store.md)
+   * [Reducer](/api/reducer.md)
+   * [Dispatcher](/api/dispatcher.md)
+   * [Action](/api/action.md)
+   * [provideStore](/api/providestore.md)
+   * [createMiddleware](/api/createmiddleware.md)
+   * [provideMiddlewareForToken](/api/providemiddlewarefortoken.md)
+   * [usePreMiddleware](/api/usepremiddleware.md)
+   * [usePostMiddleware](/api/usepostmiddleware.md)
+* [Patterns and Best Practice](/patterns/README.md)
+   * [Reducers](/patterns/reducers.md)
+   * [Actions](/patterns/actions.md)
+   * [Side Effects](/patterns/side_effects.md)
+   * [Selectors](/patterns/selectors.md)
+   * [Sagas](/patterns/sagas.md)
+* [Recipes](/recipes/README.md) 
+   * [Side Effects](/patterns/sagas.md)
+   * [View Events](/patterns/sagas.md)
+   * [Middleware with Dependencies](/patterns/sagas.md)
+   * [Initializing State From Service](/patterns/sagas.md)
+* [Help](/help/README.md)
+   * [Frequently Asked Questions](/help/questions.md)
+   * [Setup with NPM](/help/npm.md)
+   * [Setup with JSPM](/help/jspm.md)
 
