@@ -6,4 +6,5 @@
 * API Reference
 * [Help](help.md)
    * Frequently Asked Questions
+   * Setup with NPM
 
