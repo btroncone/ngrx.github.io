@@ -32,4 +32,5 @@
    * Frequently Asked Questions
    * Setup with NPM
    * Setup with JSPM
+* Selectors
 
