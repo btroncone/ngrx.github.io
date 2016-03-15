@@ -4,4 +4,5 @@
 * Introduction
 * Recipes
 * API Reference
+* Help
 
