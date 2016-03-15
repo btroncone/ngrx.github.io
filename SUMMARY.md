@@ -2,6 +2,7 @@
 
 * [Read Me](README.md)
 * [Introduction](README.md)
+   * Basic Example
 * [Recipes](npm_setup.md)
 * [API Reference](jspm_setup.md)
 * [Help](help.md)
