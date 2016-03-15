@@ -2,7 +2,7 @@
 
 * [Read Me](README.md)
 * [Introduction](README.md)
-* Recipes
+* [Recipes](npm_setup.md)
 * API Reference
 * [Help](help.md)
    * Frequently Asked Questions
