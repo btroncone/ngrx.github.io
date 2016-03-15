@@ -3,8 +3,9 @@
 * [Read Me](README.md)
 * Patterns and Best Practice
 * [Introduction](README.md)
-   * Basic Example
-   * Overview
+* * Overview
+  * Basic Example
+   
 * [Introduction](README.md)
    * Basic Example
    * Overview
