@@ -1,7 +1,7 @@
 # Summary
 
 * [Read Me](README.md)
-* Patterns and Best Practice
+* [Patterns and Best Practice](basic_example.md)
 * [Introduction](overview.md)
    * Basic Example
    * Overview
