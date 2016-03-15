@@ -1,6 +1,6 @@
 # Summary
 
-* Read Me
+* [Read Me](README.md)
 * [Introduction](README.md)
 * Recipes
 * API Reference
