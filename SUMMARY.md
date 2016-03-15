@@ -1,7 +1,7 @@
 # Summary
 
 * Read Me
-* Introduction
+* [Introduction](README.md)
 * Recipes
 * API Reference
 * Help
