@@ -23,6 +23,9 @@
 * [Introduction](README.md)
    * Basic Example
    * Overview
+* [Introduction](README.md)
+   * Basic Example
+   * Overview
 * Patterns and Best Practice
 * [API Reference](jspm_setup.md)
 * [Help](help.md)
