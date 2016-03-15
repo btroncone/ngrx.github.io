@@ -1,3 +1,0 @@
-# Patterns and Best Practice
-
-``````
