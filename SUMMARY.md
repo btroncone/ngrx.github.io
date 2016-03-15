@@ -9,4 +9,5 @@
    * Frequently Asked Questions
    * Setup with NPM
    * Setup with JSPM
+* Patterns and Best Practice
 
