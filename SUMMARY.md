@@ -5,4 +5,5 @@
 * Recipes
 * API Reference
 * [Help](help.md)
+   * Frequently Asked Questions
 
