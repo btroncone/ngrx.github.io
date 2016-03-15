@@ -24,7 +24,7 @@
    * [Side Effects](/Recipes/side_effect.md)
    * [View Events](/Recipes/view_events.md)
    * [Middleware with Dependencies](/Recipes/middlware_depedencies.md)
-   * [Initializing State From Service](/Recipes/initial_state_service.md)
+   * [Initialize State From Service](/Recipes/initial_state_service.md)
 * [Help](/Help/README.md)
    * [Frequently Asked Questions](/Help/questions.md)
    * [Setup with NPM](/Help/npm.md)
