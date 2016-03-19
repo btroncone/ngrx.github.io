@@ -1,4 +1,4 @@
-# `usePostMiddleware(...middleware: Array<Middleware | Provider>) : Provider[]`
+# `usePostMiddleware(...middleware: Array<Middleware | Provider>)`
 
 #### Arguments
 1. `...middleware: Array<Middleware | Provider>`: An indefinite number of middleware arguments, order is guaranteed.
