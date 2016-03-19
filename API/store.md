@@ -15,6 +15,10 @@ A store holds the entire state tree for your application. There will be one stor
 
 Select slice of state based on supplied value. The `select(keyOrSelector)` method is equivalent to `store.map(state => state[keyOrSelector]).distinctUntilChanged()`. 
 
+#### Arguments
+
+1. `keyOrSelector: ((state: T) => R) | string | number | symbol` - Function, string, number, or symbol representing the appropriate slice of state to be returned.
+
 #### Returns
 
 *(Observable<R>)*: Observable of selected state.
@@ -25,15 +29,29 @@ Select slice of state based on supplied value. The `select(keyOrSelector)` metho
 
 Returns the current state tree of your application. As a rule of thumb this method should be avoided.
 
+#### Arguments
+
+No arguments
+
 #### Returns
 
 *(any)*: The current state tree of your application.
 
 <hr>
 
-### <a id='dispatch'></a>[`dispatch(action)`](#dispatch)
+### <a id='dispatch'></a>[`dispatch(action : Action)`](#dispatch)
 
 Dispatches an action. This is equivalent to calling `dispatcher.dispatch`.
+
+#### Arguments
+
+1. `action : Action` - Action to be dispatched.
+
+#### Returns
+
+*(void)*
+
+<hr>
 
 ### <a id='replaceReducer'></a>[`replaceReducer<V>(reducer: Reducer<V>)`](#replaceReducer)
 
@@ -41,5 +59,9 @@ Replaces specified reducer.
 
 #### Arguments
 
-1. `reducer` (*Reducer<V>*) The next reducer for the store to use.
+1. `reducer` (*Reducer<V>*) The reducer to replace current reducer.
+
+#### Returns
+
+*(void)*
 
