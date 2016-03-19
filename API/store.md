@@ -1,7 +1,6 @@
 # Store
 
-A store holds the whole [state tree](../Glossary.md#state) of your application.  
-The only way to change the state inside it is to dispatch an [action](../Glossary.md#action) on it.  
+A store holds the entire state tree for your application. There will be one store instance per application.  
 
 ### Store Methods
 
@@ -14,17 +13,17 @@ The only way to change the state inside it is to dispatch an [action](../Glossar
 
 ### <a id='select'></a>[`select<R>(keyOrSelector: ((state: T) => R) | string | number | symbol): Observable<R>`](#select)
 
-Select's appropriate slice of state based on supplied value, applying the `distinctUntilChanged` operator. `Select` is equivalent to `store.map(state => state[keyOrSelector]).distinctUntilChanged()`. 
+Select slice of state based on supplied value. The `select(keyOrSelector)` method is equivalent to `store.map(state => state[keyOrSelector]).distinctUntilChanged()`. 
 
 #### Returns
 
-*(Observable<R>)*: Observable of the requested state slice.
+*(Observable<R>)*: Observable of selected state.
 
 <hr>
 
 ### <a id='getState'></a>[`getState()`](#getstate)
 
-Returns the current state tree of your application. This method should generally be avoided.
+Returns the current state tree of your application. As a rule of thumb this method should be avoided.
 
 #### Returns
 
@@ -34,11 +33,11 @@ Returns the current state tree of your application. This method should generally
 
 ### <a id='dispatch'></a>[`dispatch(action)`](#dispatch)
 
-Dispatches an action. 
+Dispatches an action. This is equivalent to calling `dispatcher.dispatch`.
 
 ### <a id='replaceReducer'></a>[`replaceReducer<V>(reducer: Reducer<V>)`](#replaceReducer)
 
-Replaces the reducer currently used by the store to calculate the state. 
+Replaces specified reducer. 
 
 #### Arguments
 
