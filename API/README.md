@@ -1,0 +1,18 @@
+# API Reference
+
+Complete API reference for @ngrx/store.
+
+### Top-Level Exports
+
+* [provideStore(reducer: any, initialState?: any)](provideStore.md)
+* [usePreMiddleware(...middleware: Array<Middleware | Provider>)](usepremiddleware.md)
+* [usePostMiddleware(...middleware: Array<Middleware | Provider>)](userpostmiddleware.md)
+* [createMiddleware(useFactory: (...deps: any[]) => Middleware, deps?: any[]](createMiddleware.md)
+
+### Store API
+
+* [Store](store.md)
+  * [select<R>(keyOrSelector: ((state: T) => R) | string | number | symbol)](store.md#select)
+  * [getState()](store.md#getstate)
+  * [dispatch(action : Action)](store.md#dispatch)
+  * [replaceReducer<V>(reducer: Reducer<V>)](store.md#replaceReducer)
