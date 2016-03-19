@@ -5,10 +5,10 @@ Commonly asked questions and issues regarding @ngrx/store setup and use.
 ### How does @ngrx/store compare to Redux?
 Check out this [conversation](https://github.com/ngrx/store/issues/16) for a full rundown on the inspiration for store and how it compares to vanilla redux.
 
-### How do I access the current application state in preMiddleware?
+### Can I access the current application state in preMiddleware?
 coming soon...
 
-### How do I initialize store state from a service?
+### How do I utilize dependencies in middleware?
 coming soon...
 
 ### More to come...
