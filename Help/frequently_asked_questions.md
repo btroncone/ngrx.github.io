@@ -6,10 +6,10 @@ Commonly asked questions and issues regarding @ngrx/store setup and use.
 Check out this [conversation](https://github.com/ngrx/store/issues/16) for a full rundown on the inspiration for store and how it compares to vanilla redux.
 
 ### Can I access the current application state in preMiddleware?
-coming soon...
+At this time there is no clean way to access store in `preMiddleware`. Consider using `postMiddleware` when access to store is required.
 
 ### How do I utilize dependencies in middleware?
-coming soon...
+@ngrx/store provides a [`createMiddleware`](../API/createmiddleware.md) helper function, making it easy to inject application dependencies into your middleware.
 
 ### More to come...
 
