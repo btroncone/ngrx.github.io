@@ -1,5 +1,5 @@
 #` Action { type: string; payload?: any;  }`
-Actions are the only method of communication between your application and store. In @ngrx/store, actions require both a `type` and a `payload`, or information carried by the action. Your actions should create a clear history of user interaction within your application.
+Actions are the only method of communication between your application and store. In @ngrx/store, actions require both a `type` and an optional `payload`, or information carried by the action. Your actions should create a clear history of user interaction within your application.
 
 ####Example
 ```ts
