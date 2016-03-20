@@ -9,9 +9,21 @@ automatically combined to create root reducer. You will rarely need to call `com
 or in the future when using store in universal applications.
 
 #### Returns
-([*`Store`*](Store.md)): Application store.
+([*`Store`*](store.md)): Application store.
 
 #### Example
 ```ts
-Example Here
+import {bootstrap} from 'angular2/platform/browser';
+import {App} from './app';
+import {provideStore} from "@ngrx/store";
+import {counter} from "./reducers/counter";
+
+export function main() {
+  return bootstrap(App, [
+      provideStore({counter}, {counter : 0}),
+  ])
+  .catch(err => console.error(err));
+}
+
+document.addEventListener('DOMContentLoaded', main);
 ```

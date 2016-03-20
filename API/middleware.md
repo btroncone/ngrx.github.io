@@ -41,6 +41,7 @@ bootstrap(App, [
 For middleware requiring dependencies the `createMiddleware(useFactory: (...deps: any[]) => Middleware, deps?: any[]): Provider` helper function is supplied. This allows you to quickly create middleware that relies on other Angular services, such as the `Dispatcher`.
 ####Example
 - Create middleware provider:
+
 ```ts
 export const thunk = createMiddleware(function(dispatcher: Dispatcher<Action>) {
   return function(all$: Observable<Action | Thunk>){
@@ -51,9 +52,11 @@ export const thunk = createMiddleware(function(dispatcher: Dispatcher<Action>) {
     return actions$;
   }
 }, [Dispatcher]);
+
 ```
 - Initialize with `usePreMiddleware(...middleware: Middleware[])` or `usePostMiddleware(...middleware: Middleware[])` on application bootstrap:
-```typescript
+
+```ts
 import {bootstrap} from 'angular2/platform/browser';
 import {App} from './myapp';
 import {provideStore, usePreMiddleware, Middleware} from '@ngrx/store';

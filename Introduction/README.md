@@ -4,6 +4,4 @@ RxJS powered state management inspired by Redux for Angular2 apps. Ready to get 
 
 * [Overview](overview.md)
 * [Architecture](architecture.md)
-* [Middleware](middleware.md)
-* [Setup](setup.md)
 * [Walkthrough](walkthrough.md)
