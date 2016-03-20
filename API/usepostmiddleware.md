@@ -8,5 +8,14 @@
 
 #### Example
 ```ts
-Example Here
+const stateLogger = state$ => state$
+        .do(state => {
+            console.log('CURRENT STATE:', state)
+        });
+
+//in application bootstrap
+bootstrap(App, [
+  provideStore({exampleReducer}),
+  usePreMiddleware(stateLogger)
+]);
 ```
