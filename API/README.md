@@ -2,6 +2,12 @@
 
 Complete API reference for @ngrx/store.
 
+### Types
+* [Store](store.md)
+* [Reducer](reducer.md)
+* [Action](action.md)
+* [Middleware](middleware.md)
+
 ### Top-Level Exports
 
 * [provideStore(reducer: any, initialState?: any)](providestore.md)
