@@ -1,8 +1,8 @@
 {
-  "name": "@ngrx/store gitbook",
+  "name": "ngrx-store-gitbook",
   "version": "0.0.1",
   "description": "Git Book for @ngrx/store",
-  "main": ""
+  "main": "",
   "dependencies": {},
   "devDependencies": {
     "gitbook-cli": "^1.0.1"
