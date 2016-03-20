@@ -8,5 +8,14 @@
 
 #### Example
 ```ts
-Example Here
+const actionLogger = action$ => action$
+        .do(action => {
+            console.log('DISPATCHED ACTION:', action)
+        });
+
+//in application bootstrap
+bootstrap(App, [
+  provideStore({exampleReducer}),
+  usePreMiddleware(actionLogger)
+]);
 ```
