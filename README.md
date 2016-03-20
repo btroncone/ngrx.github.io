@@ -25,7 +25,7 @@
    * [Middleware with Dependencies](/Recipes/middlware_depedencies.md)
    * [Initialize State From Service](/Recipes/initial_state_service.md)
 * [Help](/Help/README.md)
-   * [Frequently Asked Questions](/Help/questions.md)
+   * [Frequently Asked Questions](/Help/frequently_asked_questions.md)
    * [Resources](/Help/resources.md)
    * [Setup with NPM](/Help/npm.md)
    * [Setup with JSPM](/Help/jspm.md)
