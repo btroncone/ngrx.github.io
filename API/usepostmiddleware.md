@@ -16,6 +16,6 @@ const stateLogger = state$ => state$
 //in application bootstrap
 bootstrap(App, [
   provideStore({exampleReducer}),
-  usePreMiddleware(stateLogger)
+  usePostMiddleware(stateLogger)
 ]);
 ```
