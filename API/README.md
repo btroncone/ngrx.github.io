@@ -12,8 +12,8 @@ Complete API reference for @ngrx/store.
 
 * [provideStore(reducer: any, initialState?: any)](providestore.md)
 * [usePreMiddleware(...middleware: Array<Middleware | Provider>)](usepremiddleware.md)
-* [usePostMiddleware(...middleware: Array<Middleware | Provider>)](userpostmiddleware.md)
-* [createMiddleware(useFactory: (...deps: any[]) => Middleware, deps?: any[]](createMiddleware.md)
+* [usePostMiddleware(...middleware: Array<Middleware | Provider>)](usepostmiddleware.md)
+* [createMiddleware(useFactory: (...deps: any[]) => Middleware, deps?: any[]](createmiddleware.md)
 
 ### Store API
 

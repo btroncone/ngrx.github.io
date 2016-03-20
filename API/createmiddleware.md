@@ -6,7 +6,7 @@ __@ngrx/store__ exposes a `createMiddleware` helper function in order to quickly
 2. `deps?: any[]` - An array of dependencies to be injected into factory function.
 
 #### Returns
-([*`Provider`*](Store.md)): Provider for given middleware.
+([*`Provider`*](https://angular.io/docs/ts/latest/api/core/Provider-class.html)): Provider for given middleware.
 
 #### Example
 ```ts
