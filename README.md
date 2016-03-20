@@ -4,7 +4,6 @@
 * [Introduction](/Introduction/README.md)
    * [Overview](/Introduction/overview.md)
    * [Architecture](/Introduction/architecture.md)
-   * [Middleware](/Introduction/middleware.md)
    * [Setup](/Introduction/setup.md)
    * [Walkthrough](/Introduction/walkthrough.md)
 * [API Reference](/API/README.md)
