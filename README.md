@@ -12,6 +12,7 @@
    * [Reducer](/API/reducer.md)
    * [Dispatcher](/API/dispatcher.md)
    * [Action](/API/action.md)
+   * [Middleware](/API/middleware.md)
    * [provideStore](/API/providestore.md)
    * [createMiddleware](/API/createmiddleware.md)
    * [usePreMiddleware](/API/usepremiddleware.md)
