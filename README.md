@@ -9,7 +9,6 @@
 * [API Reference](/API/README.md)
    * [Store](/API/store.md)
    * [Reducer](/API/reducer.md)
-   * [Dispatcher](/API/dispatcher.md)
    * [Action](/API/action.md)
    * [Middleware](/API/middleware.md)
    * [provideStore](/API/providestore.md)
