@@ -14,7 +14,7 @@
 * [Angular 2 and the Single Immutable State Tree](https://speakerdeck.com/cironunes/angular-2-and-the-single-immutable-state-tree) - Ciro Nunes
 
 ###Repositories and Code Samples
-*Coming Soon
+* Coming Soon
 
 ### Middleware
 * [store-saga - Rx implementation of redux-saga for @ngrx/store](https://github.com/MikeRyan52/store-saga) - Mike Ryan
